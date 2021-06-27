@@ -1,0 +1,149 @@
+/* Responsivo para tablets Grandes (Ipad Pro) */ @media screen and (max-width:1024px) {
+
+    /* Header-Menu */
+    .menu-container {
+        max-width:900px;
+        width:90%;
+    }
+    /* Header-Menu */
+}
+
+/* Responsividade Ipad */ @media screen and (max-width:900px) {
+    /* Header-Menu */
+    .menu-container {
+        height:100px;
+    }
+    .logo {
+        margin:0 auto;
+    }
+    .nav-menu {
+        margin:0 auto;
+    }
+    /* Header-Menu */
+}
+
+/* Responsividade Surface Duo */ @media screen and (min-width:480px) and (max-width:560px){
+    /* Header-Menu */
+    .menu-container {
+        width:540px;
+        margin:0px;
+    }
+    .nav-menu ul li {
+        font-size:12px;
+        margin:0 auto;        
+    }
+    .nav-menu ul li a {
+        padding-left:10px;
+    }
+    .nav-menu ul li::before {
+        height:18px;
+        margin-left:10px;
+    }
+    .nav-menu ul li a img {
+        width:12px;
+        margin-top:3px;
+    }
+    /* Header-Menu */
+}
+
+/* Responsividade Iphone 6/7/8 plus , Pixel2 e XL */ @media screen and (min-width:411px) and (max-width:479px) {
+    /* Header-Menu */
+    .menu-container {
+        width:410px;
+        margin:0px;
+    }
+    .nav-menu ul li {
+        font-size:12px;
+        margin:0 auto;        
+    }
+    .nav-menu ul li a {
+        padding-left:10px;
+    }
+    .nav-menu ul li::before {
+        height:18px;
+        margin-left:10px;
+    }
+    .nav-menu ul li a img {
+        width:12px;
+        margin-top:3px;
+    }
+    /* Header-Menu */
+}
+
+/* Responsividade motoG4, Iphone6/7/8, Iphone X */ @media screen and (min-width:321px) and (max-width:410px) {
+    /* Header-Menu */
+    .menu-container {
+        width:360px;
+        margin:0px;
+    }
+    .nav-menu ul li {
+        font-size:12px;
+        margin:0 auto;        
+    }
+    .nav-menu ul li a {
+        padding-left:10px;
+    }
+    .nav-menu ul li::before {
+        height:18px;
+        margin-left:10px;
+    }
+    .nav-menu ul li a img {
+        width:12px;
+        margin-top:3px;
+    }
+    /* Header-Menu */
+}
+
+/* Responsividade Iphone5*/ @media screen and  (max-width:320px) {
+    /* Header-Menu */
+    .menu-container {
+        width:320px;
+        margin:0px;
+    }
+    .logo img {
+        width:250px;
+    }
+    .nav-menu ul li {
+        font-size:10px;
+        margin:0 auto;        
+    }
+    .nav-menu ul li a {
+        padding-left:10px;
+    }
+    .nav-menu ul li::before {
+        height:18px;
+        margin-left:10px;
+    }
+    .nav-menu ul li a img {
+        width:12px;
+        margin-top:3px;
+    }
+    /* Header-Menu */
+}
+
+/* Responsividade Galaxy Fold*/ @media screen and (max-width:280px) {
+    /* Header-Menu */
+    .menu-container {
+        width:280px;
+        margin:0px;
+    }
+    .logo img {
+        width:200px;
+    }
+    .nav-menu ul li {
+        font-size:10px;
+        margin:0 auto;        
+    }
+    .nav-menu ul li a {
+        padding-left:10px;
+    }
+    .nav-menu ul li::before {
+        height:14px;
+        margin-left:10px;
+    }
+    .nav-menu ul li a img {
+        width:12px;
+        margin-top:1px;
+    }
+    /* Header-Menu */
+}

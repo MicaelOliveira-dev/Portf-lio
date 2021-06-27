@@ -1,0 +1,66 @@
+/* CSS RESET */
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    text-decoration:none;
+}
+html {
+    scroll-behavior:smooth;
+}
+/* CSS RESET END */
+
+
+/* HEADER MENU START */
+.l-menu {
+    background:#000;       
+}
+.menu-container {
+    max-width:1200px;
+    width:90%;    
+    height:80px; 
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.nav-menu ul{
+    display:flex;
+}
+.nav-menu ul li {
+    font-size:18px;
+    font-family:"Poppins", sans-serif;   
+}
+.nav-menu ul li::before {
+    content: "";
+    width:2px;    
+    height:26px;
+    display: block;
+    float: right;
+    background:#DAA520;
+    margin-left:20px;
+}
+.nav-menu ul li:nth-child(5)::before,
+.nav-menu ul li:nth-child(6)::before  {
+    display:none;
+}
+.nav-menu ul li a:hover {
+    color:#DAA520;
+    transition:ease .5s;
+}
+.nav-menu ul li a {
+    color:#fff;
+    padding-left:20px;    
+}
+.nav-menu ul li a img {
+    width:15px;
+    margin-top:6px;
+}
+/* HEADER MENU END */
+
+/* SECTION BG HOME START */
+
+/* SECTION BG HOME END */
