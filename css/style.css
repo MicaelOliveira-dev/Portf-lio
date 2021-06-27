@@ -62,5 +62,55 @@ html {
 /* HEADER MENU END */
 
 /* SECTION BG HOME START */
+.banner {
+    background:url(../img/bg.jpg) no-repeat center;
+    background-size:cover;
+    height:500px;
+}
+.bg-container {
+    max-width:1200px;
+    width:90%; 
+    margin:0 auto;
+}
+.conteudo {
+    padding-top:110px;
+}
+.conteudo h1 {
+    font-size:42px;
+    font-weight:bold;
+    font-family:"Poppins", sans-serif;
+    color:#fff;
+    margin-bottom:48px;
+}
+.conteudo h1 span{
+    color:#DAA520;
+}
+.conteudo h3 {
+    font-size:36px;
+    font-family:"Poppins", sans-serif;
+    color:#fff;
+    margin-bottom:48px;
+}
+.conteudo h3 span {
+    color:#DAA520;
+}
+.conteudo a {
+    font-size:28px;
+    font-family:"Poppins", sans-serif;
+    color:#fff;
+    display:flex;    
+}
+.conteudo a:hover {
+    color:#DAA520;
+    transition:ease 0.3s;
+}
+.conteudo a img {
+    margin-right:16px;
+    animation: arrow 1s infinite;
+}
 
+/* Animations */
+@keyframes arrow{
+    from {transform:translate(15px)}
+}
 /* SECTION BG HOME END */

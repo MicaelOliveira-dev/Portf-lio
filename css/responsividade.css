@@ -68,6 +68,26 @@
         margin-top:3px;
     }
     /* Header-Menu */
+
+    /* Section Bg */
+    .banner {
+        height:450px;
+    }
+    .conteudo {
+        padding-top:70px;
+    }
+    .conteudo h1 {
+        font-size:36px;
+        text-align:center;
+    }
+    .conteudo h3 {
+        font-size:28px;
+        text-align:center;
+    }
+    .conteudo a {
+        margin-left:25px;
+    }
+    /* Section Bg */
 }
 
 /* Responsividade motoG4, Iphone6/7/8, Iphone X */ @media screen and (min-width:321px) and (max-width:410px) {
@@ -92,6 +112,20 @@
         margin-top:3px;
     }
     /* Header-Menu */
+
+    /* Section Bg */
+    .conteudo {
+        padding-top:80px;
+    }    
+    .conteudo h1 {
+        font-size:36px;
+        text-align:center;
+    }
+    .conteudo h3 {
+        font-size:28px;
+        text-align:center;
+    }
+     /* Section Bg */
 }
 
 /* Responsividade Iphone5*/ @media screen and  (max-width:320px) {
@@ -119,6 +153,27 @@
         margin-top:3px;
     }
     /* Header-Menu */
+
+    /* Section Bg */
+    .banner {
+        height:400px;
+    }
+    .conteudo {
+        padding-top:80px;
+    }    
+    .conteudo h1 {
+        font-size:28px;
+        text-align:center;
+    }
+    .conteudo h3 {
+        font-size:20px;
+        text-align:center;
+    }
+    .conteudo a {
+        font-size:20px;
+        margin-left:15px;
+    }
+     /* Section Bg */
 }
 
 /* Responsividade Galaxy Fold*/ @media screen and (max-width:280px) {
@@ -146,4 +201,11 @@
         margin-top:1px;
     }
     /* Header-Menu */
+
+    
+    /* Section Bg */
+    .conteudo a {
+        margin:0px;
+    }
+     /* Section Bg */
 }
