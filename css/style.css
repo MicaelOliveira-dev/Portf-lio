@@ -9,12 +9,18 @@
 }
 html {
     scroll-behavior:smooth;
+    background:#F5FAFE;
+    height:1600px;
 }
 /* CSS RESET END */
 
 
 /* HEADER MENU START */
 .l-menu {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:10;
     background:#000;       
 }
 .menu-container {
@@ -62,10 +68,12 @@ html {
 /* HEADER MENU END */
 
 /* SECTION BG HOME START */
-.banner {
+.home {
     background:url(../img/bg.jpg) no-repeat center;
     background-size:cover;
     height:500px;
+    margin-top:80px;
+    
 }
 .bg-container {
     max-width:1200px;
@@ -114,3 +122,43 @@ html {
     from {transform:translate(15px)}
 }
 /* SECTION BG HOME END */
+
+/* SECTION SOBRE START */
+.sobre-container {
+    max-width:1200px;
+    width:90%;
+    margin:0 auto;
+    display:flex;
+}
+.sobre-container .subtitle {
+    font-size:28px;
+    font-weight:bold;
+    font-family:"Poppins", sans-serif;
+    margin-top:68px;
+}
+.sobre-container .subtitle::after {
+    content:"";
+    display:block;
+    width:75px;
+    height:3px;
+    background:#DAA520;
+    margin-bottom:16px;
+}
+.sobre-container p {
+    font-size:24px;
+    font-family:"Roboto";
+    width:535px;
+}
+.sobre-container p::after {
+    content:"";
+    display:block;
+    width:298px;
+    height:2px;
+    background:#ccc;
+    margin-top:38px;
+}
+.sobre-container .ilustracao {
+    margin-top:68px;
+    margin-left:120px;
+}
+/* SECTION SOBRE END */

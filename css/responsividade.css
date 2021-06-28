@@ -6,6 +6,18 @@
         width:90%;
     }
     /* Header-Menu */
+
+    /* Section sobre */
+    .sobre-container {
+        max-width:900px;
+        width:90%;
+    }
+    .sobre-container .ilustracao img{
+        width:350px;
+        height:350px;
+        margin-left:-60px;
+    }
+    /* Section sobre */
 }
 
 /* Responsividade Ipad */ @media screen and (max-width:900px) {
@@ -20,6 +32,19 @@
         margin:0 auto;
     }
     /* Header-Menu */
+
+    /* Section sobre */
+    .sobre-container p {
+        font-size:18px;
+        font-family:"Roboto";
+        width:400px;
+    }
+    .sobre-container .ilustracao img{
+        width:260px;
+        height:260px;
+        margin-left:-100px;
+    }
+    /* Section sobre */
 }
 
 /* Responsividade Surface Duo */ @media screen and (min-width:480px) and (max-width:560px){
@@ -44,6 +69,72 @@
         margin-top:3px;
     }
     /* Header-Menu */
+
+    
+    /* Section Bg */
+    .banner {
+        height:450px;
+    }
+    .conteudo {
+        padding-top:70px;
+    }
+    .conteudo h1 {
+        font-size:42px;
+        text-align:center;
+    }
+    .conteudo h3 {
+        font-size:32px;
+        text-align:center;
+    }
+    .conteudo a {
+        margin-left:75px;
+    }
+    /* Section Bg */
+
+    /* Section Sobre */
+    .sobre-container {
+        display: block;
+    }
+    .sobre-container .subtitle {        
+        text-align:center;
+    }
+    .sobre-container .subtitle::after {        
+        margin:0 auto;
+    }
+    .sobre-container p {
+        padding-top:50px;
+        width:400px;
+        margin:0 auto;
+        text-align:center;
+    }
+    .sobre-container p::after {
+        margin-left:50px;
+    }
+    .sobre-container .icons {
+        display:flex;
+        justify-content:center;
+        align-items:center; 
+        margin-top:40px; 
+    }
+    .sobre-container .icons img {
+        padding-left:20px;
+    }
+    .sobre-container .icons img:nth-child(1) {
+        padding-left:0;
+    }
+    .sobre-container .ilustracao {        
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-right:25px;
+    }
+    .sobre-container .ilustracao img{
+        width:350px;
+        height:350px;
+        margin-top:-30px;
+    }    
+    /* Section Sobre */
+        
 }
 
 /* Responsividade Iphone 6/7/8 plus , Pixel2 e XL */ @media screen and (min-width:411px) and (max-width:479px) {
@@ -70,8 +161,8 @@
     /* Header-Menu */
 
     /* Section Bg */
-    .banner {
-        height:450px;
+    .home {
+        margin-top:100px;
     }
     .conteudo {
         padding-top:70px;
@@ -88,12 +179,61 @@
         margin-left:25px;
     }
     /* Section Bg */
+
+    /* Section Sobre */
+    .sobre-estrutura {
+        margin-left:-14px;
+    }
+    .sobre-container {
+        display:block;
+    }
+    .sobre-container .subtitle {  
+        margin-top:40px;      
+        text-align:center;
+    }
+    .sobre-container .subtitle::after {        
+        margin:0 auto;
+    }
+    .sobre-container p {
+        padding-top:50px;
+        width:400px;
+        margin:0 auto;
+        text-align:center;
+    }
+    .sobre-container p::after {
+        margin-left:50px;
+    }
+    .sobre-container .icons {
+        display:flex;
+        justify-content:center;
+        align-items:center; 
+        margin-top:40px; 
+        margin-left:10px;
+    }
+    .sobre-container .icons img {
+        padding-left:20px;
+    }
+    .sobre-container .icons img:nth-child(1) {
+        padding-left:0;
+    }
+    .sobre-container .ilustracao {        
+        display:block;
+        justify-content:center;
+        align-items:center;
+        margin-left:110px;
+    }
+    .sobre-container .ilustracao img{
+        width:350px;
+        height:350px;
+        margin-top:-30px;
+    }    
+    /* Section Sobre */
 }
 
-/* Responsividade motoG4, Iphone6/7/8, Iphone X */ @media screen and (min-width:321px) and (max-width:410px) {
+/* Responsividade Iphone6/7/8, Iphone X */ @media screen and (max-width:375px) {
     /* Header-Menu */
     .menu-container {
-        width:360px;
+        width:375px;
         margin:0px;
     }
     .nav-menu ul li {
@@ -114,6 +254,9 @@
     /* Header-Menu */
 
     /* Section Bg */
+    .home {
+        margin-top:100px;
+    }
     .conteudo {
         padding-top:80px;
     }    
@@ -126,6 +269,138 @@
         text-align:center;
     }
      /* Section Bg */
+
+     /* Section Sobre */
+    .sobre-estrutura {
+        margin-left:-14px;
+        width:375px;
+    }
+    .sobre-container {
+        display:block;
+        margin-left:13px;
+    }
+    .sobre-container .subtitle {  
+        margin-top:40px;      
+        text-align:center;
+    }
+    .sobre-container .subtitle::after {        
+        margin:0 auto;
+    }
+    .sobre-container p {
+        padding-top:50px;
+        width:300px;
+        margin:0 auto;
+        text-align:center;
+    }
+    .sobre-container .icons {      
+        margin-left:55px;
+        margin-top:40px;
+    }
+    .sobre-container .icons img {
+        padding-left:20px;
+    }
+    .sobre-container .icons img:nth-child(1) {
+        padding-left:0;
+    }
+    .sobre-container .ilustracao {        
+        display:block;
+        justify-content:center;
+        align-items:center;
+        margin-left:100px;
+    }
+    .sobre-container .ilustracao img{
+        width:350px;
+        height:350px;
+        margin-top:-50px;
+    }    
+    /* Section Sobre */
+}
+
+/* Responsividade motoG4, Galaxy S5 */ @media screen and (max-width:360px) {
+    /* Header-Menu */
+    .menu-container {
+        width:374px;
+        margin:0px;
+        margin-left:-8px;
+    }
+    .nav-menu ul li {
+        font-size:12px;
+        margin:0 auto;        
+    }
+    .nav-menu ul li a {
+        padding-left:10px;
+    }
+    .nav-menu ul li::before {
+        height:18px;
+        margin-left:10px;
+    }
+    .nav-menu ul li a img {
+        width:12px;
+        margin-top:3px;
+    }
+    /* Header-Menu */
+
+    /* Section Bg */
+    .home {
+        margin-top:100px;
+    }
+    .conteudo {
+        padding-top:80px;
+    }    
+    .conteudo h1 {
+        font-size:36px;
+        text-align:center;
+    }
+    .conteudo h3 {
+        font-size:28px;
+        text-align:center;
+    }
+    /* Section Bg */
+
+    /* Section Sobre */
+    .sobre-estrutura {
+        margin-left:-14px;
+        width:360px;
+    }
+    .sobre-container {
+        display:block;
+        margin-left:13px;
+    }
+    .sobre-container .subtitle {  
+        margin-top:40px;      
+        text-align:center;
+    }
+    .sobre-container .subtitle::after {        
+        margin:0 auto;
+    }
+    .sobre-container p {
+        padding-top:50px;
+        width:300px;
+        margin:0 auto;
+        text-align:center;
+    }
+    .sobre-container .icons {      
+        margin-left:40px;
+        margin-top:40px;
+    }
+    .sobre-container .icons img {
+        padding-left:20px;
+    }
+    .sobre-container .icons img:nth-child(1) {
+        padding-left:0;
+    }
+    .sobre-container .ilustracao {        
+        display:block;
+        justify-content:center;
+        align-items:center;
+        margin-left:90px;
+    }
+    .sobre-container .ilustracao img{
+        width:350px;
+        height:350px;
+        margin-top:-50px;
+    }    
+    /* Section Sobre */
 }
 
 /* Responsividade Iphone5*/ @media screen and  (max-width:320px) {
@@ -173,7 +448,52 @@
         font-size:20px;
         margin-left:15px;
     }
-     /* Section Bg */
+    /* Section Bg */
+
+    /* Section Sobre */
+    .sobre-estrutura {
+        margin-left:-14px;
+        width:320px;
+    }
+    .sobre-container {
+        display:block;
+        margin-left:13px;
+    }
+    .sobre-container .subtitle {  
+        margin-top:40px;      
+        text-align:center;
+    }
+    .sobre-container .subtitle::after {        
+        margin:0 auto;
+    }
+    .sobre-container p {
+        padding-top:50px;
+        width:300px;
+        margin:0 auto;
+        text-align:center;
+    }
+    .sobre-container .icons {      
+        margin-left:25px;
+        margin-top:40px;
+    }
+    .sobre-container .icons img {
+        padding-left:20px;
+    }
+    .sobre-container .icons img:nth-child(1) {
+        padding-left:0;
+    }
+    .sobre-container .ilustracao {        
+        display:block;
+        justify-content:center;
+        align-items:center;
+        margin-left:98px;
+    }
+    .sobre-container .ilustracao img{
+        width:300px;
+        height:300px;
+        margin-top:-50px;
+    }    
+    /* Section Sobre */
 }
 
 /* Responsividade Galaxy Fold*/ @media screen and (max-width:280px) {
@@ -207,5 +527,51 @@
     .conteudo a {
         margin:0px;
     }
-     /* Section Bg */
+    /* Section Bg */
+
+    /* Section Sobre */
+    .sobre-estrutura {
+        margin-left:-14px;
+        width:280px;
+    }
+    .sobre-container {
+        display:block;
+        margin-left:13px;
+    }
+    .sobre-container .subtitle {  
+        margin-top:40px;      
+        text-align:center;
+    }
+    .sobre-container .subtitle::after {        
+        margin:0 auto;
+    }
+    .sobre-container p {
+        font-size:16px;
+        width:280px;
+    }
+    .sobre-container p::after {
+        width:280px;        
+    }
+    .sobre-container .icons {      
+        margin-left:20px;
+        margin-top:40px;
+    }
+    .sobre-container .icons img {
+        padding-left:10px;
+    }
+    .sobre-container .icons img:nth-child(1) {
+        padding-left:0;
+    }
+    .sobre-container .ilustracao {        
+        display:block;
+        justify-content:center;
+        align-items:center;
+        margin-left:90px;
+    }
+    .sobre-container .ilustracao img{
+        width:280px;
+        height:280px;
+        margin-top:-50px;
+    }    
+    /* Section Sobre */
 }
