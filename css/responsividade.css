@@ -1,4 +1,4 @@
-/* Responsivo para tablets Grandes (Ipad Pro) */ @media screen and (max-width:1024px) {
+/* Responsivo para tablets Grandes (Ipad Pro) */ @media screen and (max-width:1100px) {
 
     /* Header-Menu */
     .menu-container {
@@ -17,7 +17,31 @@
         height:350px;
         margin-left:-60px;
     }
+    .sobre-estrutura .icons {
+        margin-bottom:20px;
+    }
     /* Section sobre */
+
+    /* Section portfolio */
+    .port-container {
+        height:480px;
+    }
+    .projeto-1,
+    .projeto-2,
+    .projeto-3 {
+        width:280px;
+        height:200px;
+    }
+    .projetos h1 {
+        font-size:18px;
+    }
+    .projetos p {
+        font-size:16px;
+    }
+    .projetos a {
+        margin-top:20px;
+    }
+    /* Section portfolio */
 }
 
 /* Responsividade Ipad */ @media screen and (max-width:900px) {
@@ -44,7 +68,39 @@
         height:260px;
         margin-left:-100px;
     }
+    .sobre-estrutura .icons {
+        margin-bottom:20px;
+    }
     /* Section sobre */
+
+    /* Section portfolio */
+    .port-container {
+        height:480px;
+    }
+    .projeto-1,
+    .projeto-2,
+    .projeto-3 {
+        width:220px;
+        height:200px;
+        margin-right:10px;
+    }
+    .projetos h1 {
+        font-size:14px;
+        margin-top:26px
+    }
+    .projetos p {
+        font-size:12px;
+        width:180px;
+    }
+    .projetos a {
+        font-size:16px;
+        margin-top:20px;        
+        margin-right:35px;
+    }
+    .projetos a img {
+        width:24px;
+    }
+    /* Section portfolio */
 }
 
 /* Responsividade Surface Duo */ @media screen and (min-width:480px) and (max-width:560px){
@@ -134,6 +190,36 @@
         margin-top:-30px;
     }    
     /* Section Sobre */
+
+    /* Section portfolio */
+    .port-container {
+        height:880px;
+    }
+    .port-container .subtitle {
+        text-align:center;
+        padding-bottom:30px;
+    }
+    .port-container .subtitle::after {
+        margin:0 auto;
+    }
+    .projeto-1,
+    .projeto-2,
+    .projeto-3 {
+        width:360px;
+        height:200px;
+    }
+    .projetos {
+        display:block;
+        margin-left:65px;
+    }
+    .projetos h1 {
+        font-size:20px;
+        padding-top:30px;
+    }
+    .projetos p {
+        font-size:14px;
+    }
+    /* Section portfolio */
         
 }
 
@@ -228,6 +314,36 @@
         margin-top:-30px;
     }    
     /* Section Sobre */
+
+    /* Section portfolio */
+    .port-container {
+        height:880px;
+    }
+    .port-container .subtitle {
+        text-align:center;
+        padding-bottom:30px;
+    }
+    .port-container .subtitle::after {
+        margin:0 auto;
+    }
+    .projeto-1,
+    .projeto-2,
+    .projeto-3 {
+        width:360px;
+        height:200px;
+    }
+    .projetos {
+        display:block;
+        margin-left:8px;
+    }
+    .projetos h1 {
+        font-size:20px;
+        padding-top:30px;
+    }
+    .projetos p {
+        font-size:14px;
+    }
+    /* Section portfolio */
 }
 
 /* Responsividade Iphone6/7/8, Iphone X */ @media screen and (max-width:375px) {
@@ -314,6 +430,36 @@
         margin-top:-50px;
     }    
     /* Section Sobre */
+
+    /* Section portfolio */
+    .port-container {
+        height:880px;
+    }
+    .port-container .subtitle {
+        text-align:center;
+        padding-bottom:30px;
+    }
+    .port-container .subtitle::after {
+        margin:0 auto;
+    }
+    .projeto-1,
+    .projeto-2,
+    .projeto-3 {
+        width:320px;
+        height:200px;
+    }
+    .projetos {
+        display:block;
+        margin-left:8px;
+    }
+    .projetos h1 {
+        font-size:20px;
+        padding-top:30px;
+    }
+    .projetos p {
+        font-size:14px;
+    }
+    /* Section portfolio */
 }
 
 /* Responsividade motoG4, Galaxy S5 */ @media screen and (max-width:360px) {
@@ -401,6 +547,18 @@
         margin-top:-50px;
     }    
     /* Section Sobre */
+    /* Section portfolio */
+    .projeto-1,
+    .projeto-2,
+    .projeto-3 {
+        width:320px;
+    }
+    .projetos {
+        display:block;
+        margin-left:4px;
+    }
+    
+    /* Section portfolio */
 }
 
 /* Responsividade Iphone5*/ @media screen and  (max-width:320px) {
@@ -494,6 +652,17 @@
         margin-top:-50px;
     }    
     /* Section Sobre */
+
+    /* Section portfolio */    
+    .projeto-1,
+    .projeto-2,
+    .projeto-3 {
+        width:280px;
+    }
+    .projetos {
+        margin-left:5px;
+    }
+    /* Section portfolio */
 }
 
 /* Responsividade Galaxy Fold*/ @media screen and (max-width:280px) {
@@ -569,9 +738,20 @@
         margin-left:90px;
     }
     .sobre-container .ilustracao img{
-        width:280px;
-        height:280px;
+        width:270px;
+        height:270px;
         margin-top:-50px;
     }    
     /* Section Sobre */
+
+    /* Section portfolio */    
+    .projeto-1,
+    .projeto-2,
+    .projeto-3 {
+        width:240px;
+    }
+    .projetos {
+        margin-left:6px;
+    }
+    /* Section portfolio */
 }
