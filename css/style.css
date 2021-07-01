@@ -7,6 +7,9 @@
     border:0;
     text-decoration:none;
 }
+a {
+    color:#000;
+}
 html {
     scroll-behavior:smooth;
     background:#F5FAFE;
@@ -254,3 +257,69 @@ html {
     animation: arrow 1s infinite;
 }
 /* SECTION PORTFOLIO END */
+
+/* SECTION CONTATO START */
+.contato-container {
+    max-width:1200px;
+    width:90%;
+    margin:0 auto;
+}
+.contato-container .subtitle {
+    font-size:28px;
+    font-weight:bold;
+    font-family:"Poppins", sans-serif;
+    padding-top:68px;
+}
+.contato-container  .subtitle::after {
+    content:"";
+    display:block;
+    width:75px;
+    height:3px;
+    background:#DAA520;
+    margin-bottom:50px;
+}
+.contato-container div {
+    display: flex;
+    
+}
+.contato-container .contato {
+    display: block;
+}
+.contato-container p {
+    font-size:28px;
+    font-weight:bold;
+    font-family:"Roboto";
+    margin-bottom:33px;
+    display: flex;
+}
+.contato-container span {
+    width:41px;
+    height:14px;
+    background:#DAA520;
+    align-self:center;
+    margin-right:12px;
+}
+.contato-container a:hover {
+    color:#DAA520;
+    transition:ease 0.5s;
+}
+/* SECTION CONTATO END*/
+
+/* FOOTER COPY START */
+.footer {
+    background:#000;
+    width:100%;
+    height:72px;
+    margin-top:163px;
+}
+.footer h1{   
+    color:#fff;
+    text-align:center;
+    font-family:"Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top:19px;
+}
+/* FOOTER COPY ENd */
