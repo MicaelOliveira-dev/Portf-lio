@@ -14,22 +14,6 @@
 ## Observações 🔭
 <p>Projeto Realizado para aprimorar conceitos de HTML5 e CSS3(FlexBox)</p>
 
-## Funcionalidades
-
-:heavy_check_mark: Possibilita o profissional expor a sua história 
-
-:heavy_check_mark: Mostrar seus melhores Trabalhos 
-
-:heavy_check_mark: Formulário de contato
-
-## Como rodar a aplicação :arrow_forward:
-
-No terminal, clone o projeto e abra o arquivo index.html: 
-
-```
-git clone https://github.com/MicaelOliveira-dev/Projeto-portf-lio-fotografia.git
-```
- 
 ## Linguagens e Softwares 🚀 
 ### Código:
 - HTML5
