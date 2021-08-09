@@ -2,9 +2,6 @@
 
 > Status do Projeto: :heavy_check_mark: :warning: (concluido)
 
-## Link do Projeto
-- https://micaeloliveira-dev.github.io/Portf-lio/
-
 ## Objetivo :dart:
 
 <p align="justify">
