@@ -12,7 +12,7 @@
 </p>
 
 ## Observações 🔭
-<p>Projeto Realizado para aprimorar conceitos de HTML5 e CSS3(FlexBox)</p>
+<p>Projeto Realizado para aprimorar conceitos de HTML5 e CSS3(FlexBox) e Design com figma</p>
 
 ## Linguagens e Softwares 🚀 
 ### Código:
